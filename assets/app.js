@@ -49,6 +49,6 @@ var config = {
       
       var nextTrain = moment().add(tMinutesTrain, "minutes").format("hh:mm A");
       
-      $("#trainInfo").append("<tr><td>"+ sv.name +"</td><td>"+ sv.destination + "</td><td>"+ sv.frequency + "</td><td>"+ nextTrain+"</td><td>"+tMinutesTrain+"</td><td></td></tr>")
+      $("#trainInfo").append("<tr><td>"+ sv.name +"</td><td>"+ sv.destination + "</td><td>"+ sv.frequency + "</td><td>"+ nextTrain+"</td><td>"+tMinutesTrain+"</td></tr>")
 
   });
